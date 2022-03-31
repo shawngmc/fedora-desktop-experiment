@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install cabextract prereq
-dnf install cabextract
+dnf -y install cabextract
 
 # clone and install repo
 cd /opt

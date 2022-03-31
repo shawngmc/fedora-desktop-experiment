@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install libratbag
-dnf install libratbag-ratbagd
+dnf -y install libratbag-ratbagd
 
 # Install piper
-dnf install piper
+dnf -y install piper
