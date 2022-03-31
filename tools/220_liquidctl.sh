@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Install LiquidCtl
-dnf -y install liquidctl
+sudo dnf -y install liquidctl

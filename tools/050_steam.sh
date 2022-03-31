@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # Install Steam	
-dnf -y install steam
+sudo dnf -y install steam
 

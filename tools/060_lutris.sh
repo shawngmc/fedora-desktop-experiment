@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # Install Lutris
-dnf -y install lutris
+sudo dnf -y install lutris
 

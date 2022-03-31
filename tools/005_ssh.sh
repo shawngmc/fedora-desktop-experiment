@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # Start and enable SSH Daemon
-systemctl enable sshd
-systemctl start sshd
+sudo systemctl enable sshd
+sudo systemctl start sshd
