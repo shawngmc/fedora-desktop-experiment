@@ -26,7 +26,7 @@ sudo systemctl enable docker.service
 sudo systemctl enable containerd.service
 
 # Set up docker group
-sudo groupadd docker
+sudo groupadd -f docker
 sudo usermod -aG docker $USER
 newgrp docker
 
