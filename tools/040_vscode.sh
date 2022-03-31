@@ -8,3 +8,12 @@ sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.m
 sudo dnf -y check-update
 sudo dnf -y install code
 
+# Set VS Code font (for powerline) and theme
+cat << EOF > ~/.config/Code/User/settings.json
+{
+    "workbench.colorTheme": "Default Dark+",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "editor.fontFamily": "'Droid Sans Mono for Powerline', 'Droid Sans Mono', 'monospace', monospace"
+}
+EOF
