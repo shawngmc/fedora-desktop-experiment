@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Make sure jq is installed
+sudo dnf -y install jq
+
 NIC_DATA=$(ip -j link show)
 NIC_LIST=$(echo $NIC_DATA | jq -r ". | map(.ifname) | .[]")
 NIC_ARRAY=($NIC_LIST)
